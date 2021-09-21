@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "empfive.txt",
 				"folderPath": "input2",
 				"container": "adftutorialcontainer"
 			}
