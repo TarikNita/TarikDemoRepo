@@ -1,0 +1,18 @@
+{
+	"name": "myinputDetaSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSQLDatabaseLinkedSErvice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "input2",
+				"container": "adftutorialcontainer"
+			}
+		}
+	}
+}
