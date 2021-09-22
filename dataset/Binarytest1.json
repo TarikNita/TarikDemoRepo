@@ -1,0 +1,19 @@
+{
+	"name": "Binarytest1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSQLDatabaseLinkedSErvice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "empfive.txt",
+				"folderPath": "input2",
+				"container": "adftutorialcontainer"
+			}
+		}
+	}
+}
