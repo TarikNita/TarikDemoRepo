@@ -1,0 +1,33 @@
+{
+	"name": "SourceDataset_7if",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragelinkedforcopsql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "empfive.txt",
+				"folderPath": "input2",
+				"container": "adftutorialcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "FirstName",
+				"type": "String"
+			},
+			{
+				"name": "LastName",
+				"type": "String"
+			}
+		]
+	}
+}
