@@ -1,0 +1,25 @@
+{
+	"name": "AzureSqlDatabaseparmetrizedlinkSER",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"ParametersqlDatbasename": {
+				"type": "String"
+			},
+			"parameterSqlSERverName": {
+				"type": "String"
+			},
+			"usrnameParmeter": {
+				"type": "String"
+			},
+			"passwardparmetersql": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=@{linkedService().parameterSqlSERverName}linkedService().;Initial Catalog=@{linkedService().ParametersqlDatbasename}linkedService().;User ID=@{linkedService().usrnameParmeter}linkedService().;Password=@{linkedService().passwardparmetersql}linkedService()."
+		}
+	}
+}
