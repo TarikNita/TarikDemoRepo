@@ -1,0 +1,7 @@
+{
+	"name": "mangedprivateenddpoint",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/11806ece-8198-4540-9792-bef9b29928c0/resourceGroups/MyResourceGroupDB/providers/Microsoft.Sql/servers/mysqlservertarik",
+		"groupId": "sqlServer"
+	}
+}
