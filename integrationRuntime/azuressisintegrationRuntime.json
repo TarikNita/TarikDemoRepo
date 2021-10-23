@@ -1,0 +1,39 @@
+{
+	"name": "azuressisintegrationRuntime",
+	"properties": {
+		"type": "Managed",
+		"description": "This is myssis ir",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"nodeSize": "Standard_D8_v3",
+				"numberOfNodes": 2,
+				"maxParallelExecutionsPerNode": 2
+			},
+			"ssisProperties": {
+				"catalogInfo": {
+					"catalogServerEndpoint": "mysqlservertarik.database.windows.net",
+					"catalogAdminUserName": "azureuser",
+					"catalogAdminPassword": {
+						"type": "SecureString",
+						"value": "**********"
+					},
+					"catalogPricingTier": "S1"
+				},
+				"edition": "Standard",
+				"licenseType": "LicenseIncluded",
+				"dataProxyProperties": {
+					"connectVia": {
+						"type": "IntegrationRuntimeReference",
+						"referenceName": "SHIRintegrationRuntime1"
+					},
+					"stagingLinkedService": {
+						"type": "LinkedServiceReference",
+						"referenceName": "AzureBlobStoragelinkservice"
+					},
+					"path": "ssisircont"
+				}
+			}
+		}
+	}
+}
