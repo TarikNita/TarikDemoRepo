@@ -1,0 +1,12 @@
+{
+	"name": "1perquet test",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=ssisblobstoragge;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDMxOTY3RDM1LTg0NEItNDMzNS05RjQ4LTVBMjQ1QTdCRUY1MF80ZDA5MTRjNi1kNDU2LTQxNzItOGJlMi1lYzk5Zjk0ZGQ0NWEiDQp9"
+		}
+	}
+}
