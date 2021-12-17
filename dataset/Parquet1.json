@@ -13,7 +13,7 @@
 				"fileName": "bf45edc02760a959-90f96f3200000000_797092164_data.0.parq",
 				"container": "prqutesource"
 			},
-			"compressionCodec": "none"
+			"compressionCodec": "gzip"
 		},
 		"schema": [
 			{
