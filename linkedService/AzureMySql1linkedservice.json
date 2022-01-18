@@ -1,0 +1,12 @@
+{
+	"name": "AzureMySql1linkedservice",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureMySql",
+		"typeProperties": {
+			"connectionString": "server=tarikmysql.mysql.database.azure.com;port=3306;database=test;uid=tarik;sslmode=1;usesystemtruststore=0",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDMxOTY3RDM1LTg0NEItNDMzNS05RjQ4LTVBMjQ1QTdCRUY1MF8yNmQ2ZjI5Ni04ZDRjLTRhYjctOTFmZi1jY2U3YjkwYzc5ZjIiDQp9"
+		}
+	}
+}
