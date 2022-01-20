@@ -1,0 +1,19 @@
+{
+	"name": "Orc1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedService3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Orc",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "adfdemocontainer"
+			},
+			"enablePhysicalSchema": true
+		}
+	}
+}
