@@ -1,0 +1,19 @@
+{
+	"name": "DS_DB_CDS_MANUFACTURE_RESULTS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CDS Ecapdev",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "TABLE/CDS"
+		},
+		"annotations": [],
+		"type": "CommonDataServiceForAppsEntity",
+		"schema": [],
+		"typeProperties": {
+			"entityName": "ecap_manufactureresults"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

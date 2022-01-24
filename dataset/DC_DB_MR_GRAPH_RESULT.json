@@ -1,0 +1,71 @@
+{
+	"name": "DC_DB_MR_GRAPH_RESULT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "TABLE/GEKCM"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "created_date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "mr_nm",
+				"type": "nvarchar"
+			},
+			{
+				"name": "mr_status",
+				"type": "nvarchar"
+			},
+			{
+				"name": "delassy_eg_type",
+				"type": "varchar"
+			},
+			{
+				"name": "area_nm",
+				"type": "nvarchar"
+			},
+			{
+				"name": "country_nm",
+				"type": "nvarchar"
+			},
+			{
+				"name": "acc_org",
+				"type": "nvarchar"
+			},
+			{
+				"name": "mr_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "acc_nm",
+				"type": "nvarchar"
+			},
+			{
+				"name": "aggregation_date",
+				"type": "date"
+			},
+			{
+				"name": "year",
+				"type": "nvarchar"
+			},
+			{
+				"name": "month",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "DIF",
+			"table": "DIF_TRN_manufacture_results_graph_result"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
