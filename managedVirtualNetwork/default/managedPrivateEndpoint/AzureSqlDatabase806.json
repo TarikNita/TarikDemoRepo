@@ -1,0 +1,9 @@
+{
+	"name": "AzureSqlDatabase806",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/11806ece-8198-4540-9792-bef9b29928c0/resourceGroups/MyResourceGroupDB/providers/Microsoft.Sql/servers/mysqlservertarik",
+		"groupId": "sqlServer",
+		"ipAddress": null,
+		"resourceId": "/subscriptions/3d4187b6-fa49-4d28-9d60-9e0cdd996d29/resourceGroups/vnet-3d4187b6-eastus-365-rg/providers/Microsoft.Network/privateEndpoints/adftarikuadf.AzureSqlDatabase806"
+	}
+}
