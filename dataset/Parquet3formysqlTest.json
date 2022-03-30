@@ -1,0 +1,21 @@
+{
+	"name": "Parquet3formysqlTest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "test",
+				"folderPath": "forMySQL",
+				"fileSystem": "nitaisfilsystemname"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
